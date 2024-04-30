@@ -81,4 +81,3 @@ This project is licensed under the MIT License: [https://opensource.org/licenses
 * **Replace placeholders:** Fill in [Database], [Styling], and [API] with your actual technologies.
 * **Comments:** You might consider adding brief comments in the code to explain Next.js structure.
 
-**Let me know if you want to make this README even more robust!** 
