@@ -27,13 +27,13 @@ The MediaLab Booking Systeem simplifies the process of borrowing MediaLab equipm
 
 ## Tech Stack
 
-| Technology  | Purpose                                       |
-| ----------- | ------------------------------------------------- |
-| Next.js     | Front-end framework, routing, data fetching       |
-| React       | Component-based UI development                    |
-| [Database]  | Storing equipment info, reservations, user data    | 
-| Tailwind   | CSS, styled-components, or other styling solution |
-| [API]       | If using a separate API, specify technology       |
+| Technology     | Purpose                                           |
+| -------------- | ------------------------------------------------- |
+| Next.js        | Front-end framework, routing, data fetching       |
+| React          | Component-based UI development                    |
+| NoSQL JSON DB  | Storing equipment info, reservations, user data   | 
+| Tailwind       | CSS, styled-components, or other styling solution |
+| [API]          | If using a separate API, specify technology       |
 
 ## Getting Started
 
