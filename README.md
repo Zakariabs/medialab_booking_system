@@ -1,39 +1,83 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+
+# MediaLab Booking Systeem 
+
+**A streamlined system for managing equipment reservations at EHB University-College, Campus Kaai, built with Next.js.**
+
+## Introduction
+
+The MediaLab Booking Systeem simplifies the process of borrowing MediaLab equipment for students, teachers, and staff. With its intuitive interface, users can easily:
+
+* **Browse available equipment**
+* **Make and manage reservations** 
+* **Track equipment status**
+
+## Features
+
+* **User-friendly interface:** Easy navigation for all users.
+* **Real-time availability:** See what's available at a glance.
+* **Automated reminders:** Notifications for upcoming and overdue reservations.
+
+## Why choose the MediaLab Booking Systeem?
+
+* **Efficiency:** Saves time and reduces administrative overhead.
+* **Transparency:**  Everyone can see equipment availability.
+* **Improved resource management:** Optimize equipment usage. 
+
+
+## Tech Stack
+
+| Technology  | Purpose                                       |
+| ----------- | ------------------------------------------------- |
+| Next.js     | Front-end framework, routing, data fetching       |
+| React       | Component-based UI development                    |
+| [Database]  | Storing equipment info, reservations, user data    | 
+| Tailwind   | CSS, styled-components, or other styling solution |
+| [API]       | If using a separate API, specify technology       |
 
 ## Getting Started
 
-First, run the development server:
+**Prerequisites**
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+* Node.js (version xx or later)
+* [List any other dependencies if applicable]
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**Installation**
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/zakariabs/medialab_booking_systeem.git
+   ```
+2. Install dependencies:
+   ```bash
+    cd medialab_booking_systeem
+    npm install 
+    ``` 
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Usage
 
-## Learn More
+* **Making a reservation:**  [step-by-step instructions]
+* **Checking reservation status:**  [instructions] 
+* **[Add more common use cases]**
 
-To learn more about Next.js, take a look at the following resources:
+## Contributing
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+We welcome contributions! To get started:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+1. Review our contributing guidelines. 
+2. Fork the repository. 
+3. Create a branch and submit a pull request.
 
-## Deploy on Vercel
+## License 
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This project is licensed under the MIT License: [https://opensource.org/licenses/MIT](https://opensource.org/licenses/MIT) - see the `LICENSE` file for details.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+**Notes:**
 
+* **Replace placeholders:** Fill in [Database], [Styling], and [API] with your actual technologies.
+* **Comments:** You might consider adding brief comments in the code to explain Next.js structure.
 
-## Contributors
