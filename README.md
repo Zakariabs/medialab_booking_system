@@ -33,14 +33,14 @@ The MediaLab Booking Systeem simplifies the process of borrowing MediaLab equipm
 | React          | Component-based UI development                    |
 | NoSQL JSON DB  | Storing equipment info, reservations, user data   | 
 | Tailwind       | CSS, styled-components, or other styling solution |
-| [API]          | If using a separate API, specify technology       |
+| [API]          | DUMMYJSON                                         |
+| Cloud Hosting  | DigitalOcean                                      |       |
 
 ## Getting Started
 
 **Prerequisites**
 
 * Node.js (version xx or later)
-* [List any other dependencies if applicable]
 
 **Installation**
 
