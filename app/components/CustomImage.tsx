@@ -18,7 +18,7 @@ const CustomImage: React.FC<CustomImageProps> = ({ src, alt, width, height }) =>
       alt={alt}
       width={width}
       height={height}
-      // zorgt ervoor dat de image zijn aspect ratio
+      // zorgt ervoor dat de image zijn aspect ratio behoudt
       layout="responsive"
     />
   );
