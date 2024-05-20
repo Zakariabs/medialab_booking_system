@@ -1,17 +1,91 @@
-{
-  "$schema": "https://ui.shadcn.com/schema.json",
-  "style": "default",
-  "rsc": true,
-  "tsx": true,
-  "tailwind": {
-    "config": "tailwind.config.ts",
-    "css": "app/globals.css",
-    "baseColor": "slate",
-    "cssVariables": true,
-    "prefix": ""
-  },
-  "aliases": {
-    "components": "@/components",
-    "utils": "@/lib/utils"
-  }
+interface Product {
+  id: string;
+  name: string;
+  description: string;
+  price: number;
+  imageUrl: string;
 }
+
+
+import React from 'react';
+
+interface DescriptionBarProps {
+  product: Product;
+}
+
+const DescriptionBar: React.FC<DescriptionBarProps> = ({ product }) => {
+  return (
+    <div className="description-bar">
+      <img src={product.imageUrl} alt={product.name} />
+      <h2>{product.name}</h2>
+      <p>{product.description}</p>
+      <span>{`Price: $${product.price.toFixed(2)}`}</span>
+    </div>
+  );
+};
+
+export default DescriptionBar;
+
+
+.description-bar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 16px;
+  margin: 16px;
+}
+
+.description-bar img {
+  max-width: 100%;
+  height: auto;
+}
+
+.description-bar h2 {
+  margin: 8px 0;
+}
+
+.description-bar p {
+  text-align: center;
+}
+
+// Inside your Next.js page component
+import DescriptionBar from '../components/DescriptionBar';
+// ... other imports
+
+const ProductPage: React.FC = () => {
+  // Fetch or define your product data here
+  const product: Product = {
+    // ...product details
+  };
+
+  return (
+    <main>
+      {/* ... other page content */}
+      <DescriptionBar product={product} />
+    </main>
+  );
+};
+
+export default ProductPage;
+
+/:
+
+// Example product data
+const product = {
+  id: '1',
+  name: 'Product Name',
+  description: 'Product Description',
+  price: 19.99,
+  imageUrl: '/path/to/image.jpg',
+};
+
+// Inside the render method of your product page
+return (
+  <main>
+    {/* ... other components */}
+    <DescriptionBar product={product} />
+    {/* ... other components */}
+  </main>
+);
+
