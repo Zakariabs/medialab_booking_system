@@ -80,7 +80,10 @@ This project is licensed under the MIT License: [https://opensource.org/licenses
 
 * **Replace placeholders:** Fill in [Database], [Styling], and [API] with your actual technologies.
 * **Comments:** You might consider adding brief comments in the code to explain Next.js structure.
-* **Wireframe:** You can find our wireframe of this booking system in the following link: https://www.figma.com/file/EhRm5IqUN41tBKPhQ7BvD9/Test-design?type=design&mode=design&t=NvOmluz0e2Py1LKj-1
+* **Wireframe:** You can find our wireframe of this booking/reservation system in the following link: https://www.figma.com/file/EhRm5IqUN41tBKPhQ7BvD9/Test-design?type=design&mode=design&t=NvOmluz0e2Py1LKj-1
+
+And the minimalistic version here: https://www.figma.com/design/ngEOcox6vPmXS8kcHBXyxM/Minimalistic_version?node-id=0-1&t=D5P8iHrlm8op0xuq-1
+
 
 
 ## Features
