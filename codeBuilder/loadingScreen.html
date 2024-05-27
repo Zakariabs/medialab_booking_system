@@ -1,0 +1,47 @@
+import * as React from "react";
+
+interface ImageProps {
+  src: string;
+  alt: string;
+  className?: string;
+}
+
+const Image: React.FC<ImageProps> = ({ src, alt, className }) => (
+  <img loading="lazy" src={src} alt={alt} className={className} />
+);
+
+interface SectionProps {
+  children: React.ReactNode;
+  className?: string;
+}
+
+const Section: React.FC<SectionProps> = ({ children, className }) => (
+  <section className={className}>{children}</section>
+);
+
+const MyComponent: React.FC = () => {
+  return (
+    <div className="flex flex-col pt-20 mx-auto w-full bg-teal-300 max-w-[480px]">
+      <header className="self-start mt-2 ml-9 text-4xl font-black text-center text-white">
+        MediaLa
+      </header>
+      <Section className="flex overflow-hidden relative flex-col px-9 pt-9 pb-20 mt-52 w-full aspect-[0.74] fill-white">
+        <Image
+          src="https://cdn.builder.io/api/v1/image/assets/TEMP/59fca0d93a80bfccd6c2ae73b4ef5d02e4c442bf618780b1d01ca559c29d1baf?apiKey=48979fe6d3fb43ac802c38ca06ffa6fc&"
+          alt=""
+          className="object-cover absolute inset-0 size-full"
+        />
+        <Image
+          src="https://cdn.builder.io/api/v1/image/assets/TEMP/94d3bc507835ac5beb222478261186e777fa8e00183fab8fd0f1284dbab851fe?apiKey=48979fe6d3fb43ac802c38ca06ffa6fc&"
+          alt="Descriptive alternative text for the image"
+          className="self-center w-56 max-w-full aspect-square"
+        />
+        <div className="flex relative flex-col justify-center mt-40 bg-slate-100 rounded-[40px]">
+          <div className="shrink-0 h-4 bg-teal-300 rounded-[40px]" />
+        </div>
+      </Section>
+    </div>
+  );
+};
+
+export default MyComponent;
