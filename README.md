@@ -31,10 +31,9 @@ The MediaLab Booking Systeem simplifies the process of borrowing MediaLab equipm
 | -------------- | ------------------------------------------------- |
 | Next.js        | Front-end framework, routing, data fetching       |
 | React          | Component-based UI development                    |
-| NoSQL JSON DB  | Storing equipment info, reservations, user data   | 
+| Supabase       | Database and API service                          |
 | Tailwind       | CSS, styled-components, or other styling solution |
-| [API]          | DUMMYJSON                                         |
-| Cloud Hosting  | DigitalOcean                                      |       |
+| Cloud Hosting  | DigitalOcean   
 
 ## Getting Started
 
@@ -92,7 +91,8 @@ And the minimalistic version here: https://www.figma.com/design/ngEOcox6vPmXS8kc
 - **Responsive Design**: Ensuring the application looks great on both desktop and mobile devices.
 - **SEO Optimization**: Leveraging Next.js's capabilities for improved search engine visibility.
 - **Dynamic Routing**: Creating clean and user-friendly URLs with Next.js's file-system-based routing.
-- **API Integration**: Connecting to various APIs for dynamic content.
+- **API Integration**: Connecting to various SUPABASE API for dynamic content.
 - **Performance Optimization**: Implementing best practices to ensure fast loading times.
 - **State Management**: Using React's Context API or other state management libraries to handle application state.
 - **Accessibility**: Ensuring the application is accessible to as many users as possible.
+
