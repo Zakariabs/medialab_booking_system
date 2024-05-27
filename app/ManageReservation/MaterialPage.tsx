@@ -2,9 +2,9 @@ import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 
 interface Reservation {
-    productId: string;
-    reservationNumber: string;
-    date: string;
+  productId: string;
+  reservationNumber: string;
+  date: string;
 }
 const reservations: Reservation[] = [
     {

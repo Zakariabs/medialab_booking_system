@@ -17,8 +17,8 @@ export default function Home() {
           >
             By{" "}
             <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
+              src="/images/medialab.png"
+              alt="Medialab Logo"
               className="dark:invert"
               width={100}
               height={24}
