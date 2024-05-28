@@ -5,7 +5,7 @@ import UseProducts from "../UseProducts/UseProducts";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 
-declare module 'react'; // Add the missing type declaration for React
+declare module 'react';
 
 export default function Page() {
   const products = UseProducts();
