@@ -3,7 +3,7 @@ import React from "react";
 
 import { Card } from "@/components/ui/card";
 
-import UseProducts from "../UseProducts/UseProducts";
+import UseProducts from "../../api/UseProducts";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 
