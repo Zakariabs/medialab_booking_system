@@ -6,6 +6,11 @@ import { Card } from "@/components/ui/card";
 import UseProducts from "../UseProducts/UseProducts";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
+
+
+
+
+
 export default function Page() {
   const products = UseProducts();
 
