@@ -1,10 +1,11 @@
-import { Product } from "@/app/types/Product";
+import { Product } from "../../../types/Product";
 import { Button } from "@/components/ui/button";
 import React from "react";
-
-async function getSingleProduct(id: number) {
+import Link from 'next/link';
+async function getAsingleProduct(id: number) {
   try {
-    let res = await fetch(`https://dummyjson.com/products/${id}`);// 
+    let res = await fetch(`https://dummyjson.com/products/${id}`);
+
     if (res) {
       let r = await res.json();
       return r;
@@ -15,7 +16,7 @@ async function getSingleProduct(id: number) {
 }
 
 export default async function page({ params }: { params: { id: any } }) {
-  let data: Product = await getSingleProduct(params.id);
+  let data: Product = await getAsingleProduct(params.id);
 
   return (
     <>
@@ -30,12 +31,11 @@ export default async function page({ params }: { params: { id: any } }) {
             />
           </div>
           <p className="font-bold text-3xl ml-4">{data.title}</p>
-          <p className="ml-4">{data.description}</p>
           <p className="ml-4">{data.stock} units</p>
         </div>
-        <link rel="stylesheet" href="" />
-        <Button variant={'secondary'}>reserve</Button>
-
+        <Link href="/home/zakaria/reserv_sys/src/app/reservation_page">
+          <Button variant={'secondary'}>reserve</Button>
+          </Link>
       </div>
     </>
   );

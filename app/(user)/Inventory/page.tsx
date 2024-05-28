@@ -3,9 +3,14 @@ import React from "react";
 
 import { Card } from "@/components/ui/card";
 
-import UseProducts from "../UseProducts/UseProducts";
+import UseProducts from "../../api/UseProducts";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
+
+
+
+
+
 export default function Page() {
   const products = UseProducts();
 
@@ -29,7 +34,7 @@ export default function Page() {
               <div className="mt-4 text-center">
                 <p className="font-bold">{product.title} -</p>
                 <p className="text-sm">{product.description}</p>
-                <Link href={`@/product/${product.id}`}>
+                <Link href={`/product/${product.id}`}>
                   <Button className="mt-2" variant="destructive">
                     Select
                   </Button>
