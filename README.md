@@ -34,7 +34,8 @@ The MediaLab Booking Systeem simplifies the process of borrowing MediaLab equipm
 | NoSQL JSON DB  | Storing equipment info, reservations, user data   | 
 | Tailwind       | CSS, styled-components, or other styling solution |
 | [API]          | DUMMYJSON                                         |
-| Cloud Hosting  | DigitalOcean                                      |       |
+| Cloud Hosting  | DigitalOcean                                      | 
+| Supabase       | Database (to fetch products from)                 |
 
 ## Getting Started
 
