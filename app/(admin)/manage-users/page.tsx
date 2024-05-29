@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button';
 import data from './data';
 
 export default function Page() {
-    let label =["User ID","Email","Role","#Items, Info "];
+    let label =["User ID","Email","#Items", "Role", "Info "];
 
     return(
         <div className="flex flex-col  gap-8 md:gap-10 items-center mt-10 px-4 lg:flex ">
@@ -29,6 +29,7 @@ export default function Page() {
                 <td className="px-2 md:px-4 py-2 border border-gray-400">{elm.id}</td>
                 <td className="px-2 md:px-4 py-2 border border-gray-400">{elm.email}</td>
                 <td className="px-2 md:px-4 py-2 border border-gray-400">{elm.items}</td>
+                <td className="px-2 md:px-4 py-2 border border-gray-400">{elm.role}</td>
                 <td className="px-2 md:px-4 py-2 border border-gray-400">
                   <Button className="text-[#EA5D5D]" variant={'secondary'} size={"sm"}>{">"}</Button>
                 </td>
