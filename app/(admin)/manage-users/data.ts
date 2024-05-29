@@ -167,5 +167,6 @@ let data= [
         role: "student",
         items: 3,
     },
-
+//kunnen nog meer toevoegen indien nodig
 ]; 
+export default data;
