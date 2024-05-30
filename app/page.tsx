@@ -1,10 +1,14 @@
+
 import React from 'react'
-import ClientHomeScreen from '../components/builderio/ClientHomeScreen'
- 
-export default function page() {
+import { Link } from 'react-router-dom'
+import HomePageUser from '../components/HomePageUser'
+
+export default function Page() {
   return (
     <div>
-      <ClientHomeScreen />
+      <Link to="/home">
+        <HomePageUser />
+      </Link>
     </div>
   )
 }
