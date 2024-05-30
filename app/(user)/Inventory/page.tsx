@@ -35,7 +35,7 @@ export default function Page() {
                 <p className="font-bold">{product.title} -</p>
                 <p className="text-sm">{product.description}</p>
                 <Link href={`/product/${product.id}`}>
-                  <Button className="mt-2" variant="destructive" style={{ background: "cyan" }}>
+                  <Button className="mt-2" variant="destructive" style={{ background: "red" }}>
                     Select
                   </Button>
                 </Link>
