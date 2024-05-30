@@ -1,5 +1,6 @@
-import Link from "next/link";
-import React from "react";
+"use client"
+import Link from "next/link"
+import React from "react"
 export default function Header() {
   let data = [
     { label: "Manage reservation", link: "/manage-reservation" },
