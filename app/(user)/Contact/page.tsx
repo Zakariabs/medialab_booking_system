@@ -1,22 +1,20 @@
 "use client"
 import React, { useState, CSSProperties } from 'react';
-import router, { useRouter } from 'next/router';
-
 
 const Contact: React.FC = () => {
+  // State variables to hold the form input values
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
-    const [message, setMessage] = useState('');
+  const [message, setMessage] = useState('');
 
-    const handleSubmit = (event: React.FormEvent) => {
-        event.preventDefault();
-        // Here you would handle the form submission, e.g., sending data to an API
-        console.log({ name, email, message });
+  // Handle form submission
+  const handleSubmit = (event: React.FormEvent) => {
+    event.preventDefault(); // Prevent the default form submission behavior
+    // You can handle form submission here, e.g., send the data to an API
+    console.log({ name, email, message });
+  };
 
-        // Redirect to the thank you page after submission
-        router.push('/thank-you');
-};
-
+  // Define inline styles with appropriate TypeScript types
   const styles: { [key: string]: CSSProperties } = {
     form: {
       display: 'flex',
@@ -62,7 +60,7 @@ const Contact: React.FC = () => {
   return (
     <form onSubmit={handleSubmit} style={styles.form}>
       <div>
-        <label htmlFor="name" style={styles.label}>Name:</label>
+        <label htmlFor="name" style={styles.label}>Full Name:</label>
         <input
           type="text"
           id="name"
@@ -73,7 +71,7 @@ const Contact: React.FC = () => {
         />
       </div>
       <div>
-        <label htmlFor="email" style={styles.label}>Email:</label>
+        <label htmlFor="email" style={styles.label}>School Email:</label>
         <input
           type="email"
           id="email"
@@ -93,7 +91,6 @@ const Contact: React.FC = () => {
           style={styles.input}
         />
       </div>
-      <Link to="/">
       <button type="submit" style={styles.button}>
         <span>Send</span>
         <svg
@@ -108,7 +105,6 @@ const Contact: React.FC = () => {
           <path d="M15.964 0.686a1.5 1.5 0 0 0-1.932-1.932L.686 6.036a1.5 1.5 0 0 0-.057 2.754L4.25 10.5 10.5 4.25l-1.71 4.621a1.5 1.5 0 0 0 1.364 1.364l4.621-1.71 1.792 4.621a1.5 1.5 0 0 0 1.364-1.364L15.964.686zM5.961 8.232L2.82 6.598l10.054-3.975L8.232 5.961 6.598 2.82l3.975 10.054L8.232 5.961z" />
         </svg>
       </button>
-      </Link>
     </form>
   );
 };
