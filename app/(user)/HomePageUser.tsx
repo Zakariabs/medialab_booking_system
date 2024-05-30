@@ -5,8 +5,8 @@ import React from "react";
 export default function Home() {
   const data = [
     { label: "Products", link: "/Inventory" },
-    { label: "Return", link: "/manage-users" }, //change this to right path
-    { label: "Contact Us", link: "/manage-products" }, //change this to right path
+    { label: "Return", link: "/Return" }, 
+    { label: "Contact Us", link: "/Contact" }, 
   ];
 return (
     <>
