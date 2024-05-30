@@ -12,7 +12,7 @@ export default function Header() {
       <div className="felx justify-center">
         <div className="bg-[url('/bg.svg')] -mt-10 bg-no-repeat w-full h-[222px] flex items-center justify-center">
           <div className="flex  font-medium flex-col justify-center text-white items-center ">
-            <text>welcome</text>
+            <text>Welcome!</text>
             <text className="text-xl">Admin Name Here</text>
           </div>
         </div>
