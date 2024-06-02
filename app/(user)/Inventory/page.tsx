@@ -19,7 +19,7 @@ export default function Page() {
       {products &&
         products.products.map((product) => (
           <div key={product.id}>
-            <Card className="max-w-sm rounded-lg border-2 border-red-500 p-4">
+            <Card className="max-w-sm rounded-lg border-2 border-cyan-500 p-4">
               <img
                 alt="Handycam CX405 camcorder"
                 className="mx-auto"
@@ -35,7 +35,7 @@ export default function Page() {
                 <p className="font-bold">{product.title} -</p>
                 <p className="text-sm">{product.description}</p>
                 <Link href={`/product/${product.id}`}>
-                  <Button className="mt-2" variant="destructive">
+                  <Button className="mt-2" variant="destructive" style={{ background: "red" }}>
                     Select
                   </Button>
                 </Link>

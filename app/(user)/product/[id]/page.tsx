@@ -20,22 +20,23 @@ export default async function page({ params }: { params: { id: any } }) {
 
   return (
     <>
-      <div className="bg-[#ea5d5d] flex flex-col justify-center items-center h-[600px] ">
+      <div className="flex flex-col justify-center items-center h-[600px] ">
         <div className="flex flex-col justify-center gap-2">
-          <div className=" bg-white  rounded-3xl p-10">
+          <div className="bg-white rounded-3xl p-10">
             <img
               alt={data.title}
               height="150"
               src={data.images[0]}
               width="400"
+              style={{ border: "2px solid #ea5d5d" }} // Add border style here
             />
           </div>
           <p className="font-bold text-3xl ml-4">{data.title}</p>
           <p className="ml-4">{data.stock} units</p>
         </div>
         <Link href="/home/zakaria/reserv_sys/src/app/reservation_page">
-          <Button variant={'secondary'}>reserve</Button>
-          </Link>
+          <Button variant={'secondary'} className="bg-cyan-500">reserve</Button>
+        </Link>
       </div>
     </>
   );

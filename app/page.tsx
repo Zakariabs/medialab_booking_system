@@ -1,11 +1,14 @@
-import React from 'react'
-import ClientHomeScreen from '../components/builderio/ClientHomeScreen'
-import Rpage from '../components/builderio/ReservateProducts'
 
-export default function page() {
+import React from 'react'
+import { Link } from 'react-router-dom'
+import HomePageUser from '../components/HomePageUser'
+
+export default function Page() {
   return (
     <div>
-      <Rpage />
+      <Link to="/home">
+        <HomePageUser />
+      </Link>
     </div>
   )
 }

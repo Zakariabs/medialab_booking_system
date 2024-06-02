@@ -1,12 +1,12 @@
 
 
-# MediaLab Booking Systeem 
+# MediaLab Booking System 
 
 **A streamlined system for managing equipment reservations at EHB University-College, Campus Kaai, built with Next.js.**
 
 ## Introduction
 
-The MediaLab Booking Systeem simplifies the process of borrowing MediaLab equipment for students, teachers, and staff. With its intuitive interface, users can easily:
+The MediaLab Booking System simplifies the process of borrowing MediaLab equipment for students, teachers, and staff. With its intuitive interface, users can easily:
 
 * **Browse available equipment**
 * **Make and manage reservations** 
@@ -18,7 +18,7 @@ The MediaLab Booking Systeem simplifies the process of borrowing MediaLab equipm
 * **Real-time availability:** See what's available at a glance.
 * **Automated reminders:** Notifications for upcoming and overdue reservations.
 
-## Why choose the MediaLab Booking Systeem?
+## Why choose the MediaLab Booking System?
 
 * **Efficiency:** Saves time and reduces administrative overhead.
 * **Transparency:**  Everyone can see equipment availability.
@@ -34,7 +34,8 @@ The MediaLab Booking Systeem simplifies the process of borrowing MediaLab equipm
 | NoSQL JSON DB  | Storing equipment info, reservations, user data   | 
 | Tailwind       | CSS, styled-components, or other styling solution |
 | [API]          | DUMMYJSON                                         |
-| Cloud Hosting  | DigitalOcean                                      |       |
+| Cloud Hosting  | DigitalOcean                                      | 
+| Supabase       | Database (to fetch products from)                 |
 
 ## Getting Started
 
