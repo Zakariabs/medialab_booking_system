@@ -18,9 +18,20 @@ export default function ReturnPage() {
   };
 
 return (
-    <div className="flex flex-col items-center gap-10 mt-28">        
+    <div className="flex flex-col items-center gap-10 mt-28">
+        <h1 className="text-3xl font-bold">Return Product</h1>
+        
         <div className="w-full max-w-md mt-10">
             <h2 className="text-xl font-bold mb-4">Return Details</h2>
+            
+            <div className="mt-4">
+                <input
+                    type="text"
+                    placeholder="Product Name"
+                    className="w-full border border-gray-300 rounded-lg p-2"
+                />
+            </div>
+            
             <label>
                 <input
                     type="checkbox"
@@ -29,13 +40,6 @@ return (
                 />
                 {"Are there any defects?"}
             </label>
-            <div className="mt-4">
-                <input
-                    type="text"
-                    placeholder="Product Name"
-                    className="w-full border border-gray-300 rounded-lg p-2"
-                />
-            </div>
             <div className="mt-4">
                 <DatePicker
                     selected={selectedDate}
