@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Home Screen</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <section class="hero-banner">
+            <div class="welcome-section">
+                <p class="welcome-text">Welcome, <span id="username" class="username"></span></p>
+                <p class="email">Email: <span id="email" class="email"></span></p>
+            </div>
+        </section>
+        <div class="button-container">
+            <div class="product-section separator">
+                <button class="product-button">Products</button>
+            </div>
+            
+            <div class="return-section">
+                <button class="return-button">Return</button>
+            </div>
+            <div class="contact-section">
+                <button class="contact-button">Contact</button>
+            </div>
+        </div>
+        <p class="institution-name">Erasmushogeschool Brussel</p>
+    </div>
+    <script>
+       
+        var email = localStorage.getItem('email');
+
+       
+        function extractNameFromEmail(email) {
+            var parts = email.split('@')[0].split('.');
+            var name = parts.map(function(part) {
+                return part.charAt(0).toUpperCase() + part.slice(1);
+            }).join(' ');
+            return name;
+        }
+
+       
+        if (email) {
+            var username = extractNameFromEmail(email);
+            document.getElementById('username').innerText = username;
+            document.getElementById('email').innerText = email;
+        }
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>

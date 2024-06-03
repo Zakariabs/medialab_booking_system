@@ -1,0 +1,84 @@
+/* styles.css */
+
+.container {
+    background-color: #fff;
+    display: flex;
+    max-width: 480px;
+    width: 100%;
+    flex-direction: column;
+    font-size: 11px;
+    color: #6ad4dd;
+    font-weight: 400;
+    margin: 0 auto;
+    padding: 80px 37px;
+  }
+  
+  .title {
+    text-align: center;
+    margin: 26px 0 0;
+    font: 700 40px Pridi, sans-serif;
+  }
+  
+  .label {
+    font-family: PT Sans Caption, sans-serif;
+    margin-top: 60px;
+  }
+  
+  .input {
+    border-radius: 7px;
+    border: 1px solid rgba(229, 229, 229, 1);
+    background-color: rgba(229, 229, 229, 0.59);
+    margin-top: 7px;
+    height: 50px;
+    width: 100%;
+  }
+  
+  .password-label {
+    font-family: PT Sans Caption, sans-serif;
+    margin-top: 52px;
+  }
+  
+  .checkbox-container {
+    display: flex;
+    align-items: center;
+    margin-top: 14px;
+    gap: 8px;
+  }
+  
+  .checkbox {
+    border-radius: 2px;
+    border: 1px solid rgba(229, 231, 235, 1);
+    background-color: #fff;
+    width: 14px;
+    height: 14px;
+  }
+  
+  .checkbox-label {
+    font-family: PT Sans Caption, sans-serif;
+    line-height: 127%;
+  }
+  
+  .login-button {
+    border-radius: 7px;
+    background-color: rgba(106, 212, 221, 1);
+    color: #fff;
+    margin-top: 79px;
+    width: 100%;
+    max-width: 241px;
+    align-self: center;
+    padding: 17px 0;
+    font: 18px/78% PT Sans Caption, sans-serif;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .footer {
+    text-align: center;
+    margin-top: 35px;
+    font: 12px/14px PT Sans Caption, -apple-system, Roboto, Helvetica, sans-serif;
+  }
+  
+  .footer-link {
+    color: rgba(106, 212, 221, 1);
+  }
+  

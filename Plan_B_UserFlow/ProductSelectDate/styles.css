@@ -1,0 +1,105 @@
+/* Basic reset for consistent styling across browsers */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'PT Sans Caption', sans-serif;
+  background-color: #f0f0f0;
+  color: #000;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  width: 90%;
+  font-size: 11px;
+  color: #6ad4dd;
+  font-weight: 400;
+  padding: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.date-header {
+  text-align: center;
+  font: 700 40px 'Pridi', sans-serif;
+}
+
+.checkin-date, .checkout-date {
+  font-family: 'PT Sans Caption', sans-serif;
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.agenda-info {
+  font-family: 'PT Sans Caption', sans-serif;
+  border-radius: 7px;
+  border: 1px solid rgba(229, 229, 229, 1);
+  background-color: rgba(229, 229, 229, 0.59);
+  margin-top: 8px;
+  align-items: start;
+  color: #000;
+  justify-content: center;
+  padding: 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.confirm-button, .return-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  background-color: #6ad4dd;
+  color: #fff;
+  white-space: nowrap;
+  text-align: center;
+  padding: 15px 30px;
+  font: 600 16px 'Inter', sans-serif;
+  cursor: pointer;
+  text-decoration: none;
+  margin: 20px auto 0;
+}
+
+.confirm-button:hover, .return-button:hover {
+  background-color: #5ac4cd;
+}
+
+.confirm-button:focus, .return-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.6);
+}
+
+.return-button {
+  font-family: 'Poppins', sans-serif;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+.confirm-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.confirm-button.disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
