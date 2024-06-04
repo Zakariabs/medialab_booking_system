@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section class="container">
+        <h1 class="title">Login</h1>
+        <form id="login-form">
+            <label for="email" class="label">EHB email:</label>
+            <input type="email" id="email" class="input" aria-label="EHB email" required>
+            <label for="password" class="password-label">Password:</label>
+            <input type="password" id="password" class="input" aria-label="Password" required>
+            <div class="checkbox-container">
+                <input type="checkbox" id="remember-me" class="checkbox" tabindex="0">
+                <label for="remember-me" class="checkbox-label">Remember me</label>
+            </div>
+            <button type="submit" class="login-button">Login</button>
+        </form>
+        <p class="footer">
+            By logging into an account you are agreeing with our <a href="#" class="footer-link">Terms and Conditions</a> and <a href="#" class="footer-link">Privacy Statement</a>
+        </p>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
+

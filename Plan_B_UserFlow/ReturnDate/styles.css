@@ -1,0 +1,79 @@
+.container {
+  background-color: #fff;
+  display: flex;
+  max-width: 480px;
+  width: 100%;
+  flex-direction: column;
+  font-size: 11px;
+  color: #6ad4dd;
+  font-weight: 400;
+  margin: 0 auto;
+  padding: 69px 36px;
+}
+
+.date-header {
+  text-align: center;
+  align-self: center;
+  font: 700 40px Pridi, sans-serif;
+}
+
+.checkin-date {
+  font-family: PT Sans Caption, sans-serif;
+  margin-top: 146px;
+}
+
+.agenda-info {
+  font-family: PT Sans Caption, sans-serif;
+  border-radius: 7px;
+  border: 1px solid rgba(229, 229, 229, 1);
+  background-color: rgba(229, 229, 229, 0.59);
+  margin-top: 8px;
+  align-items: start;
+  color: #000;
+  justify-content: center;
+  padding: 20px;
+}
+
+.confirm-button {
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  background-color: #6ad4dd;
+  align-self: center;
+  margin-top: 205px;
+  width: 231px;
+  max-width: 100%;
+  color: #fff;
+  white-space: nowrap;
+  text-align: center;
+  padding: 19px 60px;
+  font: 600 20px Inter, sans-serif;
+  cursor: pointer;
+}
+
+.confirm-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.6);
+}
+
+.return-button {
+  font-family: Poppins, sans-serif;
+  background-color: #6ad4dd;
+  margin-top: 170px;
+  color: #fff;
+  padding: 3px 15px;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  left: 10px;
+}
+
+.confirm-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.confirm-button.disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}

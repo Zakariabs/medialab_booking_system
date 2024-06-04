@@ -1,0 +1,74 @@
+.container {
+    background-color: #fff;
+    display: flex;
+    max-width: 480px;
+    width: 100%;
+    flex-direction: column;
+    font-size: 11px;
+    color: #6ad4dd;
+    font-weight: 400;
+    margin: 0 auto;
+    padding: 80px 37px;
+    align-items: center;
+  }
+
+.hero-banner {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.welcome-text {
+  margin: 0;
+  font-size: 18px;
+}
+
+.username {
+  font-weight: bold;
+}
+
+.email {
+  margin-top: 5px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product-section, .return-section, .contact-section {
+  border-radius: 10px;
+  background-color: #6ad4dd;
+  width: 600px;
+  margin: 10px 0;
+  
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+
+
+.separator {
+  border-color: rgba(111, 221, 230, 1);
+  margin-top: 20px;
+}
+
+.product-button, .return-button, .contact-button {
+  border-radius: 10px;
+  border: 1px solid rgba(106, 212, 221, 1);
+  background-color: #6ad4dd;
+  display: flex;
+  width: 100%;
+  max-width: 600px;
+  font-size: 20px;
+  font-weight: 600;
+  white-space: nowrap;
+  text-align: center;
+  padding: 11px 30px;
+  margin-top: 40px;
+  align-items: center;
+  color: white;
+  justify-content: center; 
+  align-items: center; 
+  cursor: pointer;
+}

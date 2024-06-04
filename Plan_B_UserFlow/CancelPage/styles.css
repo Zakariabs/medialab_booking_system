@@ -1,0 +1,33 @@
+.confirmation-container {
+  background-color: #fff;
+  display: flex;
+  max-width: 480px;
+  width: 100%;
+  flex-direction: column;
+  color: #6ad4dd;
+  text-align: center;
+  margin: 0 auto;
+  padding: 75px 53px;
+}
+
+.confirmation-title {
+  align-self: center;
+  font: 700 40px Pridi, sans-serif;
+}
+
+.confirmation-message {
+  margin-top: 161px;
+  font: 900 13px Poppins, sans-serif;
+}
+
+.return-button {
+  font-family: Poppins, sans-serif;
+  background-color: #6ad4dd;
+  margin-top: 170px;
+  color: #fff;
+  padding: 3px 15px;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  left: 10px;
+}

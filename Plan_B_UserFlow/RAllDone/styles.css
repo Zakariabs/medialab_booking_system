@@ -1,0 +1,21 @@
+.confirmation-container {
+  background-color: #fff;
+  display: flex;
+  max-width: 480px;
+  width: 100%;
+  flex-direction: column;
+  color: #6ad4dd;
+  text-align: center;
+  margin: 0 auto;
+  padding: 75px 53px;
+}
+
+.confirmation-title {
+  align-self: center;
+  font: 700 40px Pridi, sans-serif;
+}
+
+.confirmation-message {
+  margin-top: 161px;
+  font: 900 13px Poppins, sans-serif;
+}

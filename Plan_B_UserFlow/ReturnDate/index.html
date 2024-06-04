@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Date Confirmation</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flatpickr/4.6.9/flatpickr.min.css">
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <button class="return-button" onclick="handleReturnClick()">Return</button>
+      <h1 class="date-header">Date</h1>
+    </header>
+    <div class="checkin-date">CheckIn Date</div>
+    <div class="agenda-info" id="agenda-checkin" onclick="showDatePicker('checkin')">First click on agenda here</div>
+    <button class="confirm-button" onclick="handleConfirmClick()">Confirm</button>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flatpickr/4.6.9/flatpickr.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
