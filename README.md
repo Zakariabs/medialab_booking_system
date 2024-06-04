@@ -96,3 +96,5 @@ And the minimalistic version here: https://www.figma.com/design/ngEOcox6vPmXS8kc
 - **State Management**: Using React's Context API or other state management libraries to handle application state.
 - **Accessibility**: Ensuring the application is accessible to as many users as possible.
 
+
+
