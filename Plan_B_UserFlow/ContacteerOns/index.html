@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  
+  <section class="form-container">
+    <h2 class="form-title">Contact Us</h2>
+    <div class="title-bar"> <!-- Added container for title and return button -->
+      <button class="return-button" onclick="handleSelectClick()">Return</button>
+    </div>
+     <label for="messageText" class="visually-hidden">Message</label>
+    <form>
+     
+      <textarea class="form-description" id="messageText" placeholder="Write your message here..." aria-label="Message"></textarea>
+    </form>
+    <button class="send-button" onclick="handleSelectClick()">Send</button>
+  </section>
+  <script src="script.js"></script>
+</body>
+</html>

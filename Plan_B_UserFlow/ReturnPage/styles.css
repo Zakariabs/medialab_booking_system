@@ -1,0 +1,131 @@
+.container {
+  background-color: #fff;
+  display: flex;
+  max-width: 480px;
+  width: 100%;
+  padding-top: 14px;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.profile-section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  color: #fff;
+  justify-content: center;
+  background-color: #6ad4dd;
+  padding: 54px 60px;
+  position: relative;
+}
+
+.profile-background {
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 189px;
+  max-width: 100%;
+  position: relative;
+}
+
+.profile-pic {
+  width: 96px;
+  aspect-ratio: 1;
+  object-fit: cover;
+  object-position: center;
+  background-color: #36868c;
+}
+
+.profile-name {
+  margin-top: 35px;
+  font: 500 18px Pridi, sans-serif;
+}
+
+.profile-email {
+  margin-top: 25px;
+  font: 400 12px Poppins, sans-serif;
+  width: 100%;
+  text-align: center;
+}
+
+.products-section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: start;
+  padding: 0 21px;
+  margin-top: 20px;
+}
+
+.products-info {
+  color: #6ad4dd;
+  width: 100%;
+  font: 500 20px Inter, sans-serif;
+}
+
+.product {
+  border-radius: 9px;
+  border: 1px solid rgba(54, 134, 140, 1);
+  background-color: #6ad4dd;
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  padding: 10px 33px 22px 11px;
+}
+
+.product-info {
+  color: #fff;
+  font: 500 14px Inter, sans-serif;
+}
+
+.product-title {
+  font: 700 18px Inter, sans-serif;
+  color: #fff;
+}
+
+.reservation-date,
+.return-date {
+  font: 12px Inter, sans-serif;
+  color: #fff;
+}
+
+.order-button, .order-button1,.order-button2 {
+  color: #6fdde6;
+  text-align: center;
+  margin-top: 7px;
+  font: 600 16px Inter, sans-serif;
+  align-self: flex-end;
+  cursor: pointer;
+}
+
+.decorative-footer {
+  width: 100%;
+  aspect-ratio: 2.78;
+  object-fit: cover;
+  margin-top: 44px;
+  background-color: #6ad4dd;
+}
+
+.return-button {
+  font-family: Poppins, sans-serif;
+  background-color: #ffffff;
+  color: #6ad4dd;
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  position: absolute; 
+  top: 90px; 
+  left: 10px; 
+  border: none;
+}
